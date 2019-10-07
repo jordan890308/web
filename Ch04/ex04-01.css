@@ -11,12 +11,25 @@
 	float: left;
 }
 #contentMain {
+
 }
+.subtitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #EF4E08;
+	margin-top: 0px;
+}
+
+
 .headerLogo {
 	float: left;
 	margin-top: 20px;
 	margin-left: 48px;
 }
+.line-height {
+	line-height: 2.5em;
+}
+
 #headerCopy {
 	font-size: 11px;
 	float: left;
@@ -68,4 +81,35 @@ body {
 #listNew {
 	margin-right: 30px;
 	margin-left: 50px;
+}
+#content #contentL #listNew p {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #000;
+}
+.date {
+	color: #EA5413;
+}
+.padding {
+	padding-top: 10px;
+}
+a {
+	color: #669933;
+	text-decoration: none;
+}
+a:hover {
+	color: #ED601B;
+	text-decoration: underline;
+}
+.transition {
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-ms-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+}
+.transition:hover {
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
 }
